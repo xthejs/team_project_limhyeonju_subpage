@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+
+/* 1440px */
+@media (max-width: 1440px){
+    .container{width: 100%; padding: 0 5vw; box-sizing: border-box;}
+    /* game_map */
+    .map_tab > ul{height: 70vh;}
+    .map_tab > ul > li{height: 16vh;}
+    .map_img{height: 70vh;}
+    .map_img > ul > li .person{width: 17vw;}
+    .map_img > ul > li:nth-of-type(3) .person{width: 22vw;}
+    .map_img > ul > li .map_desc{height: 11vw;}
+}
+
+
+/* 1280px */
+@media (max-width: 1280px){
+    /* banner */
+    .banner .ban_txt h3{font-size: 5.3rem;}
+    .banner .ban_txt span{font-size: 2.2rem;}
+
+    /* tab_box */
+    .skill{width: 35%;}
+    .tab{width: 65%;}
+    .tab_img{width: 60%;}
+    .tab_img > ul > li{border-radius: 110px;}
+    .tab_menu{width: 40%;}
+    .tab_btn > ul > li{width: 6.3vw; height: 7.5vw;}
+    .tab_txt > ul > li{
+        height: calc(50vh - 9.5vw);
+    }
+}
+
+
+/* 1024px */
+@media (max-width: 1024px){
+    /* benner */
+    .banImg{top: -100px; width: 250px;}
+    .banImg::before{width: 250px; height: 550px; bottom: -475px;}
+    @keyframes shine{
+        0%{background-position: 15px 0;}
+        50%{background-position: -10px 0;}
+        100%{background-position: 15px 0;}
+    }
+    .banner .ban_txt{top: 40%;}
+    /* footer */
+    .footer {height: 240px; line-height: 30px;}
+    .footer .f_logo {order: 1;}
+    .footer .f_menu {order: 3;}
+    .footer .f_link {order: 4;}
+    .footer .f_sns {width: 50%; order: 2; display: flex; justify-content: flex-end;}
+    .footer .f_sns ul li {border: 1px solid #607683; border-radius: 5px;}
+    .footer .f_copy {width: 50%; order: 5;}
+
+    /* map_tab */
+    .map_img > ul > li .map_desc{display: flex; justify-content: center; flex-direction: column;}
+    .map_img > ul > li .map_desc span{margin-bottom: 0.5rem;font-size: 1.3rem;}
+    .map_img > ul > li .map_desc p{font-size: 1rem;}
+}
+
+
+/* 960px */
+@media (max-width: 960px) {
+    /* banner */
+    .banner .ban_txt h3{font-size: 5rem; margin-bottom: 1.3rem;}
+    .banner .ban_txt span{font-size: 2rem;}
+    /* tab_box */
+    .tab_box{align-items: normal;}
+
+    /* skill */
+    .skill{width: 45%;}
+    .character > li{width: 100%; border-radius: 15px; height: 55vh;}
+    /* tab */
+    .tab{width: 55%; flex-direction: column;}
+    /* tab_img */
+    .tab_img{width: 100%; padding-right: 0; padding-bottom: 2.5vw;}
+    .tab_img > ul > li{height: calc(32vh - 2.5vw); border-radius: 25px; box-shadow: none;}
+    .tab_img > ul > li img{object-position: center 10%;}
+    /* tab_menu */
+    .tab_menu{width: 100%;}
+    .tab_btn{margin-bottom: 2vw;}
+    .tab_btn > ul{padding: 0 20%;}
+    .tab_btn > ul > li{width: 7.5vw; height: 6vw; border-radius: 15px;}
+    .tab_btn > ul > li.active{box-shadow: none;}
+    .tab_txt > ul > li{width: 100%; margin-bottom: 0; height: calc(23vh - 8vw); border-radius: 15px;}
+
+    /* map_tab */
+    .map_tab{width: 100%; padding-right: 0;}
+    .map_img > ul > li{border-radius: 15px; padding: 16px;}
+    .map_tab > ul{width: 100%; height: 10vh; display: flex; flex-direction: row; margin-bottom: 3vw;}
+    .map_tab > ul > li{width: 23.7%; height: 100%;}
+    .map_img{width: 100%; height: calc(50vh - 3vw);}
+    .map_img > ul > li .map_desc{height: auto; padding: 4%; border-radius: 10px;}
+    .map_img > ul > li .person{width: 19vw;}
+    .map_img > ul > li:nth-of-type(3) .person{width: 24vw;}
+}
+
+
+/* 690px */
+@media (max-width: 690px){
+    /* banner */
+    .banner .ban_txt h3{font-size: 4.5rem; margin-bottom: 1.2rem;}
+    .banner .ban_txt span{font-size: 1.7rem;}
+}
+
+
+/* 650px */
+@media (max-width: 650px){
+    .map_img > ul > li .map_desc span{margin-bottom: 0.5rem;font-size: 1.3rem;}
+    .map_img > ul > li .map_desc p{font-size: 1rem; letter-spacing: -0.25px;}
+}
+
+
+/* 600px */
+@media (max-width: 600px){
+    /* header */
+    .header .logo{height: 80px;}
+    /* banner */
+    .banner{height: calc(100vh - 80px);}
+    .banImg{top: -80px; width: 220px;}
+    .banImg::before{width: 220px; height: 430px;bottom: -365px;}
+    .banner .ban_txt{top: 50%;}
+    @keyframes shine{
+        0%{background-position: 30px 0;}
+        50%{background-position: -20px 0;}
+        100%{background-position: 30px 0;}
+    }
+    /* contents1 */
+    .con1_title{font-size: 1.8rem;}
+
+     /* skill */
+     .skill{width: 100%; order: 2; padding-right: 0; margin-top: 3vw;}
+     .character > li{height: 25vh; flex-direction: row;  padding: 3.5% 5%;}
+     .character > li .skill_tit{
+        width: 30%;
+        height: 100%;
+        text-align: left;
+        padding-top: 1.2rem;
+    }
+    .character > li .skill_tit em{font-size: 1.5rem;}
+    .character > li .skill_tit span{display: none;}
+    .skill_box{width: 70%; height: 100%; padding: 0;}
+    .skill_box li{padding: 1.3em 0;}
+
+     /* tab */
+     .tab{width: 100%; height: 43vh; flex-direction: column; order: 1; position: relative;}
+
+     /* tab_img */
+     .tab_img{width: 75%; position: absolute; top: 0; right: 0; padding-bottom: 0;}
+     .tab_img > ul > li{height: 30vh; border-width: 1px;}
+
+     /* tab_menu */
+     .tab_menu{width: 100%;}
+     .tab_btn{width: 25%; margin-bottom: 0; position: absolute; top: 0; left: 0; padding-right: 3vw; box-sizing: border-box;}
+     .tab_btn > ul{padding: 0; flex-direction: column; height: 30vh;}
+     .tab_btn > ul > li{width: 100%; height: 33.33%; margin-bottom: 2vw; box-sizing: border-box;}
+     .tab_btn > ul > li:last-child{margin-bottom: 0;}
+     .tab_txt{position: absolute; left: 0; bottom: 0;}
+     .tab_txt > ul > li{height: calc(13vh - 3vw);box-shadow: none; padding: 4%;}
+
+     /* game_map */
+     .game_map h3{font-size: 1.8rem;}
+
+     /* map_tab */
+    .map_img{height: calc(60vh - 3vw);}
+    .map_tab{order: 2; margin-top: 3vw;}
+    .map_tab > ul{margin-bottom: 0; gap: 2vw;}
+    .map_tab > ul > li{width: 25%;}
+    .map_img > ul > li{padding: 20px;}
+    .map_img > ul > li .person{width: 27vw;}
+    .map_img > ul > li:nth-of-type(3) .person{width: 34vw;}
+    .map_img > ul > li .map_desc span{margin-bottom: 0.5rem;font-size: 1.2rem;}
+    .map_img > ul > li .map_desc p{font-size: 0.9rem; letter-spacing: -0.25px;}
+
+    /* footer */
+    .footer{height: 200px;}
+    .footer .f_logo{width: 90px;}
+    .footer .f_menu ul li{margin-right: 12px;}
+    .footer .f_menu ul li:nth-of-type(5){display: none;}
+    .footer .f_menu ul li a{font-size: 0.8125rem;}
+    .footer .f_sns ul li{width: 1.8rem; height: 1.8rem; margin-right: 0.8rem;}
+    .footer .f_sns ul li a img{width: 1rem;}
+    .footer .f_copy{width: 60%;}
+    .footer .f_copy span{font-size: 0.625rem;}
+    select{width: 6rem; font-size: 0.7rem; height: 24px;}
+    .footer .f_link{width: 100%;}
+    .footer .f_copy{width: 100%;}
+}
+
+
+/* 550px */
+@media (max-width: 550px){
+    .skill_box li{padding: 0.9em 0;}
+}
+
+
+/* 510px */
+@media (max-width: 510px){
+    .map_img > ul > li .map_desc span{font-size: 16px; margin-bottom: 0.3rem;}
+    .map_img > ul > li .map_desc p{font-size: 13.5px; margin-bottom: 0;}
+}
+
+
+/* 480px */
+@media (max-width: 480px){
+    /* banner */
+    .banner{height: 600px;}
+    /* banner */
+    .banImg{top: -80px; width: 170px;}
+    .banImg::before{width: 170px; height: 350px;bottom: -300px;}
+    .banner .ban_txt{top: 45%;}
+    .banner .ban_txt h3{font-size: 3.5rem; margin-bottom: 1rem;}
+    .banner .ban_txt span{font-size: 1.4rem;}
+    /* contents1 */
+    #contents1{height: auto; margin: 100px 0;}
+    .tab{height: 270px;}
+    .tab_btn > ul{height: 180px;}
+    .tab_btn > ul > li{border-radius: 10px;}
+    .tab_img > ul > li{height: 180px; border-radius: 15px;}
+    .tab_txt > ul > li{height: calc(90px - 3vw); padding: 3%; font-size: 0.85rem; font-weight: 300; border-radius: 10px;}
+    .character > li{height: 170px; flex-direction: row; padding: 4% 5%; border-radius: 10px;}
+    .character > li .skill_tit em{width: 35%; font-size: 1.3rem;}
+    .skill_box{width: 65%;}
+    .skill_box li{padding: 0.8em 0;}
+    .skill_box li a em{font-size: 0.9rem;}
+
+    /* contents2 */
+    #contents2{height: auto; margin-bottom: 100px;}
+     /* game_map */
+    .game_map h3{font-size: 1.5rem;}
+     /* map_tab */
+    .map_img{height: calc(370px - 3vw);}
+    .map_img > ul > li{border-radius: 10px; padding: 13px 13px 20px 13px;}
+    .map_img > ul > li .map_desc span{font-size: 14px; margin-bottom: 0.3rem;}
+    .map_img > ul > li .map_desc p{font-size: 11.5px; margin-bottom: 0;}
+    .map_tab > ul{height: 80px;}
+
+    /* .footer */
+    .footer{line-height: 15vw;}
+}
+
+
+/* 420px */
+@media (max-width: 420px){
+    .character > li{height: 155px;}
+    .map_img{height: calc(355px - 3vw);}
+    .map_img > ul > li{padding: 10px;}
+    .map_img > ul > li .map_desc span{font-size: 12.5px;}
+    .map_img > ul > li .map_desc p{font-size: 9.5px;}
+}
+
+
+/* 400px */
+@media (max-width: 400px){
+    .header .logo{height: 60px;}
+    .header .logo{width: 5rem;}
+    .banner{height: 500px;}
+    .banImg{top: -60px; width: 150px;}
+    .banImg::before{width: 150px; height: 300px;bottom: -255px;}
+    .banner .ban_txt h3{font-size: 3rem; margin-bottom: 0.7rem;}
+    .banner .ban_txt span{font-size: 1.2rem;}
+}
+
+
+/* 320px */
+@media (max-width: 320px){
+    .banner .ban_txt h3{font-size: 2.7rem; margin-bottom: 0.5rem;}
+    @keyframes shine{
+        0%{background-position: 10px 0;}
+        50%{background-position: -10px 0;}
+        100%{background-position: 10px 0;}
+    }
+
+    .map_img > ul > li{padding: 8px;}
+    .map_img > ul > li .map_desc{ border-radius: 8px;}
+    .map_img > ul > li .map_desc span{font-size: 12px;}
+    .map_img > ul > li .map_desc p{font-size: 9px;}
+
+    .footer .f_menu ul li a{font-size: 0.7rem;}
+}
